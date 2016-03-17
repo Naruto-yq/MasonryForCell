@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class HomeStatus;
 
 @interface HomeViewCell : UITableViewCell
 
 + (instancetype)cellWithTableView:(UITableView *)tableView;
-
+@property(nonatomic, strong)HomeStatus *homeStatus;
 @end
