@@ -28,10 +28,10 @@
 
 + (instancetype)cellWithTableView:(UITableView *)tableView
 {
-    HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
-    if (cell == nil) {
-        cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
-    }
+    //HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    //if (cell == nil) {
+     HomeViewCell   *cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
+    //}
     return cell;
 }
 
@@ -96,7 +96,6 @@
 
 }
 
-
 - (void)setHomeStatus:(HomeStatus *)homeStatus
 {
     _homeStatus = homeStatus;
@@ -117,28 +116,6 @@
     
     _homeStatus.cellHeight = h+10; //最大的高度+10
 
-}
-
-
-//在表格cell中 计算出高度
--(CGFloat)rowHeightWithCellModel:(HomeStatus *)homeStatus
-{
-    _homeStatus = homeStatus;
-    __weak __typeof(&*self)weakSelf = self;
-    //设置标签的高度
-    [self.content mas_makeConstraints:^(MASConstraintMaker *make) {
-        // weakSelf.contentLabelH  这个会调用下面的懒加载方法
-        NSLog(@"--->>line:%d,weakSelf.contentH:%f", __LINE__, weakSelf.contentH);
-        make.height.mas_equalTo(weakSelf.contentH);
-    }];
-    
-    // 2. 更新约束
-    [self layoutIfNeeded];
-    
-    //3.  视图的最大 Y 值
-    CGFloat h= CGRectGetMaxY(self.content.frame);
-    
-    return h+10; //最大的高度+10
 }
 
 
