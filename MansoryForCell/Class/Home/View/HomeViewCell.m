@@ -25,13 +25,17 @@
 
 @implementation HomeViewCell
 
-
 + (instancetype)cellWithTableView:(UITableView *)tableView
 {
-    //HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
-    //if (cell == nil) {
-     HomeViewCell   *cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
-    //}
+    HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    if (cell != nil) {
+        @autoreleasepool {
+            [cell removeFromSuperview];
+            cell = nil;
+        }
+    }
+    cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
+    
     return cell;
 }
 
@@ -105,7 +109,6 @@
     //设置标签的高度
     [self.content mas_makeConstraints:^(MASConstraintMaker *make) {
         // weakSelf.contentLabelH  这个会调用下面的懒加载方法
-        NSLog(@"--->>line:%d,weakSelf.contentH:%f", __LINE__, weakSelf.contentH);
         make.height.mas_equalTo(weakSelf.contentH);
     }];
     // 2. 更新约束
@@ -115,9 +118,7 @@
     CGFloat h= CGRectGetMaxY(self.content.frame);
     
     _homeStatus.cellHeight = h+10; //最大的高度+10
-
 }
-
 
 - (CGFloat)contentH
 {
