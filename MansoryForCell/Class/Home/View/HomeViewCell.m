@@ -19,7 +19,7 @@ static NSString *cellID = @"home_cell";
         cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
-    cell.textLabel.text = @"哈哈哈哈哈哈";
+    cell.textLabel.text = @"嘻嘻哈哈";
     return cell;
 }
 
