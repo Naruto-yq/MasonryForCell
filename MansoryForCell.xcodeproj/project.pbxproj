@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E69BC421C99090700C2A19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BC411C99090700C2A19A /* main.m */; };
+		0E69BC5B1C99090700C2A19A /* MansoryForCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BC5A1C99090700C2A19A /* MansoryForCellTests.m */; };
+		0E69BC661C99090700C2A19A /* MansoryForCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BC651C99090700C2A19A /* MansoryForCellUITests.m */; };
+		0E69BC9A1C9938F000C2A19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BC991C9938F000C2A19A /* AppDelegate.m */; };
+		0E69BC9D1C99390B00C2A19A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BC9C1C99390B00C2A19A /* HomeViewController.m */; };
+		0E69BCA41C993A7600C2A19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E69BCA31C993A7600C2A19A /* Assets.xcassets */; };
+		0E69BCA61C993A8300C2A19A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E69BCA51C993A8300C2A19A /* Info.plist */; };
+		0E69BCAA1C99466A00C2A19A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BCA91C99466A00C2A19A /* MainTabBarController.m */; };
+		0E69BCAD1C998AA000C2A19A /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69BCAC1C998AA000C2A19A /* HomeViewCell.m */; };
+		64B401131443F4B30A62A8A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBD69392782A0040D48A5D5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E69BC571C99090700C2A19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E69BC351C99090700C2A19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E69BC3C1C99090700C2A19A;
+			remoteInfo = MansoryForCell;
+		};
+		0E69BC621C99090700C2A19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E69BC351C99090700C2A19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E69BC3C1C99090700C2A19A;
+			remoteInfo = MansoryForCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E69BC3D1C99090700C2A19A /* MansoryForCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MansoryForCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E69BC411C99090700C2A19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E69BC561C99090700C2A19A /* MansoryForCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MansoryForCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E69BC5A1C99090700C2A19A /* MansoryForCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MansoryForCellTests.m; sourceTree = "<group>"; };
+		0E69BC5C1C99090700C2A19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E69BC611C99090700C2A19A /* MansoryForCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MansoryForCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E69BC651C99090700C2A19A /* MansoryForCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MansoryForCellUITests.m; sourceTree = "<group>"; };
+		0E69BC671C99090700C2A19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E69BC981C9938F000C2A19A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E69BC991C9938F000C2A19A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E69BC9B1C99390B00C2A19A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0E69BC9C1C99390B00C2A19A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0E69BCA31C993A7600C2A19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E69BCA51C993A8300C2A19A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E69BCA81C99466A00C2A19A /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		0E69BCA91C99466A00C2A19A /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		0E69BCAB1C998AA000C2A19A /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		0E69BCAC1C998AA000C2A19A /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		55E7D1A628D70FAE1B5CA9F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		968103DF6ED44EE17F1DC272 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ABBD69392782A0040D48A5D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E69BC3A1C99090700C2A19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B401131443F4B30A62A8A6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC531C99090700C2A19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC5E1C99090700C2A19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E69BC341C99090700C2A19A = {
+			isa = PBXGroup;
+			children = (
+				0E69BC3F1C99090700C2A19A /* MansoryForCell */,
+				0E69BC591C99090700C2A19A /* MansoryForCellTests */,
+				0E69BC641C99090700C2A19A /* MansoryForCellUITests */,
+				0E69BC3E1C99090700C2A19A /* Products */,
+				207F257184C3075E00F6E7A5 /* Pods */,
+				20AE4E0488ED24FEB2FEE7D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E69BC3E1C99090700C2A19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC3D1C99090700C2A19A /* MansoryForCell.app */,
+				0E69BC561C99090700C2A19A /* MansoryForCellTests.xctest */,
+				0E69BC611C99090700C2A19A /* MansoryForCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E69BC3F1C99090700C2A19A /* MansoryForCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC8E1C9938F000C2A19A /* Class */,
+				0E69BC401C99090700C2A19A /* Supporting Files */,
+			);
+			path = MansoryForCell;
+			sourceTree = "<group>";
+		};
+		0E69BC401C99090700C2A19A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BCA31C993A7600C2A19A /* Assets.xcassets */,
+				0E69BCA51C993A8300C2A19A /* Info.plist */,
+				0E69BC411C99090700C2A19A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E69BC591C99090700C2A19A /* MansoryForCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC5A1C99090700C2A19A /* MansoryForCellTests.m */,
+				0E69BC5C1C99090700C2A19A /* Info.plist */,
+			);
+			path = MansoryForCellTests;
+			sourceTree = "<group>";
+		};
+		0E69BC641C99090700C2A19A /* MansoryForCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC651C99090700C2A19A /* MansoryForCellUITests.m */,
+				0E69BC671C99090700C2A19A /* Info.plist */,
+			);
+			path = MansoryForCellUITests;
+			sourceTree = "<group>";
+		};
+		0E69BC8E1C9938F000C2A19A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC931C9938F000C2A19A /* Main */,
+				0E69BC8F1C9938F000C2A19A /* Home */,
+				0E69BC971C9938F000C2A19A /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0E69BC8F1C9938F000C2A19A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC901C9938F000C2A19A /* Controller */,
+				0E69BC911C9938F000C2A19A /* Model */,
+				0E69BC921C9938F000C2A19A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E69BC901C9938F000C2A19A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC9B1C99390B00C2A19A /* HomeViewController.h */,
+				0E69BC9C1C99390B00C2A19A /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E69BC911C9938F000C2A19A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E69BC921C9938F000C2A19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BCAB1C998AA000C2A19A /* HomeViewCell.h */,
+				0E69BCAC1C998AA000C2A19A /* HomeViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E69BC931C9938F000C2A19A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC941C9938F000C2A19A /* Controller */,
+				0E69BC951C9938F000C2A19A /* Model */,
+				0E69BC961C9938F000C2A19A /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E69BC941C9938F000C2A19A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BCA81C99466A00C2A19A /* MainTabBarController.h */,
+				0E69BCA91C99466A00C2A19A /* MainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E69BC951C9938F000C2A19A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E69BC961C9938F000C2A19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E69BC971C9938F000C2A19A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0E69BC981C9938F000C2A19A /* AppDelegate.h */,
+				0E69BC991C9938F000C2A19A /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		207F257184C3075E00F6E7A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968103DF6ED44EE17F1DC272 /* Pods.debug.xcconfig */,
+				55E7D1A628D70FAE1B5CA9F5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20AE4E0488ED24FEB2FEE7D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD69392782A0040D48A5D5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E69BC3C1C99090700C2A19A /* MansoryForCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E69BC6A1C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCell" */;
+			buildPhases = (
+				C6D455A2518D36BC93D3BC95 /* Check Pods Manifest.lock */,
+				0E69BC391C99090700C2A19A /* Sources */,
+				0E69BC3A1C99090700C2A19A /* Frameworks */,
+				0E69BC3B1C99090700C2A19A /* Resources */,
+				C5A2089353D78B162862395F /* Embed Pods Frameworks */,
+				96DECEC9DF325C87C4115531 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MansoryForCell;
+			productName = MansoryForCell;
+			productReference = 0E69BC3D1C99090700C2A19A /* MansoryForCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E69BC551C99090700C2A19A /* MansoryForCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E69BC6D1C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCellTests" */;
+			buildPhases = (
+				0E69BC521C99090700C2A19A /* Sources */,
+				0E69BC531C99090700C2A19A /* Frameworks */,
+				0E69BC541C99090700C2A19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E69BC581C99090700C2A19A /* PBXTargetDependency */,
+			);
+			name = MansoryForCellTests;
+			productName = MansoryForCellTests;
+			productReference = 0E69BC561C99090700C2A19A /* MansoryForCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E69BC601C99090700C2A19A /* MansoryForCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E69BC701C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCellUITests" */;
+			buildPhases = (
+				0E69BC5D1C99090700C2A19A /* Sources */,
+				0E69BC5E1C99090700C2A19A /* Frameworks */,
+				0E69BC5F1C99090700C2A19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E69BC631C99090700C2A19A /* PBXTargetDependency */,
+			);
+			name = MansoryForCellUITests;
+			productName = MansoryForCellUITests;
+			productReference = 0E69BC611C99090700C2A19A /* MansoryForCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E69BC351C99090700C2A19A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "cmbfae Co.,Ltd.";
+				TargetAttributes = {
+					0E69BC3C1C99090700C2A19A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0E69BC551C99090700C2A19A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0E69BC3C1C99090700C2A19A;
+					};
+					0E69BC601C99090700C2A19A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0E69BC3C1C99090700C2A19A;
+					};
+				};
+			};
+			buildConfigurationList = 0E69BC381C99090700C2A19A /* Build configuration list for PBXProject "MansoryForCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E69BC341C99090700C2A19A;
+			productRefGroup = 0E69BC3E1C99090700C2A19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E69BC3C1C99090700C2A19A /* MansoryForCell */,
+				0E69BC551C99090700C2A19A /* MansoryForCellTests */,
+				0E69BC601C99090700C2A19A /* MansoryForCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E69BC3B1C99090700C2A19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E69BCA61C993A8300C2A19A /* Info.plist in Resources */,
+				0E69BCA41C993A7600C2A19A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC541C99090700C2A19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC5F1C99090700C2A19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96DECEC9DF325C87C4115531 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A2089353D78B162862395F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D455A2518D36BC93D3BC95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E69BC391C99090700C2A19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E69BC9A1C9938F000C2A19A /* AppDelegate.m in Sources */,
+				0E69BC421C99090700C2A19A /* main.m in Sources */,
+				0E69BCAA1C99466A00C2A19A /* MainTabBarController.m in Sources */,
+				0E69BCAD1C998AA000C2A19A /* HomeViewCell.m in Sources */,
+				0E69BC9D1C99390B00C2A19A /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC521C99090700C2A19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E69BC5B1C99090700C2A19A /* MansoryForCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E69BC5D1C99090700C2A19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E69BC661C99090700C2A19A /* MansoryForCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E69BC581C99090700C2A19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E69BC3C1C99090700C2A19A /* MansoryForCell */;
+			targetProxy = 0E69BC571C99090700C2A19A /* PBXContainerItemProxy */;
+		};
+		0E69BC631C99090700C2A19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E69BC3C1C99090700C2A19A /* MansoryForCell */;
+			targetProxy = 0E69BC621C99090700C2A19A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E69BC681C99090700C2A19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E69BC691C99090700C2A19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E69BC6B1C99090700C2A19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968103DF6ED44EE17F1DC272 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MansoryForCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E69BC6C1C99090700C2A19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E7D1A628D70FAE1B5CA9F5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MansoryForCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E69BC6E1C99090700C2A19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MansoryForCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MansoryForCell.app/MansoryForCell";
+			};
+			name = Debug;
+		};
+		0E69BC6F1C99090700C2A19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MansoryForCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MansoryForCell.app/MansoryForCell";
+			};
+			name = Release;
+		};
+		0E69BC711C99090700C2A19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MansoryForCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MansoryForCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0E69BC721C99090700C2A19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MansoryForCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQ.MansoryForCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MansoryForCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E69BC381C99090700C2A19A /* Build configuration list for PBXProject "MansoryForCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E69BC681C99090700C2A19A /* Debug */,
+				0E69BC691C99090700C2A19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E69BC6A1C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E69BC6B1C99090700C2A19A /* Debug */,
+				0E69BC6C1C99090700C2A19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E69BC6D1C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E69BC6E1C99090700C2A19A /* Debug */,
+				0E69BC6F1C99090700C2A19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E69BC701C99090700C2A19A /* Build configuration list for PBXNativeTarget "MansoryForCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E69BC711C99090700C2A19A /* Debug */,
+				0E69BC721C99090700C2A19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E69BC351C99090700C2A19A /* Project object */;
+}
