@@ -29,10 +29,8 @@
 {
     HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell != nil) {
-        @autoreleasepool {
             [cell removeFromSuperview];
             cell = nil;
-        }
     }
     cell = [[HomeViewCell alloc ]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
     
