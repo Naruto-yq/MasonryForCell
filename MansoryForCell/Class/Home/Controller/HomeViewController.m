@@ -13,7 +13,6 @@
 @interface HomeViewController ()
 @property (nonatomic,strong) NSMutableArray *arr; //存放的我们自定义的数据
 @property (nonatomic,strong) NSMutableArray *arrModel; //存放的数据模型
-@property(nonatomic, strong)HomeStatus *status;
 @end
 
 @implementation HomeViewController
@@ -56,10 +55,9 @@
 }
 
 - (void)viewDidLoad {
-    self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;//去掉默认下划线
-    self.tableView.estimatedRowHeight=200; //预估行高 可以提高性能
-    self.tableView.rowHeight = 88;
     [super viewDidLoad];
+    //注册表格单元
+    self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;//去掉默认下划线
 }
 
 - (void)didReceiveMemoryWarning {
@@ -77,8 +75,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     HomeViewCell *cell = [HomeViewCell cellWithTableView:tableView];
+    //HomeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     cell.homeStatus = self.arrModel[indexPath.row];
     return cell;
 }
@@ -88,49 +86,5 @@
     HomeStatus *status = self.arrModel[indexPath.row];
     return status.cellHeight;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

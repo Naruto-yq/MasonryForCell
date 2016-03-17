@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+static NSString *cellID = @"home_cell";
+
 @interface HomeStatus : NSObject
 @property (nonatomic,copy) NSString *icon; //图片
 @property (nonatomic,copy) NSString *content; //内容的label

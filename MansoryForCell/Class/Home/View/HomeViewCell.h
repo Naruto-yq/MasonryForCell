@@ -12,5 +12,7 @@
 @interface HomeViewCell : UITableViewCell
 
 + (instancetype)cellWithTableView:(UITableView *)tableView;
+
+-(CGFloat)rowHeightWithCellModel:(HomeStatus *)homeStatus;
 @property(nonatomic, strong)HomeStatus *homeStatus;
 @end
